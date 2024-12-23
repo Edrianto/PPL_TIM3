@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Wisuba</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        karla: ['Karla'],
+                        ssp: ['"Source Sans 3"'],
+                    },
+                    fontSize:{
+                        'px80': '80px',
+                        'px45': '45px',
+                        'px22': '22px'
+                    },
+                    colors:{
+                        link: '#ff8682',
+                        button: '#223d5b',
+                        'button-text':'#3c3c3c',
+                        'detail':'#3e3e3e',
+                        'login-with-button': '#8dd3bb',
+                        main: '#223d5b'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <div class="flex px-16 pt-16">
+            <div class="flex gap-x-7 mr-auto">
+                <img class="invert" src="assets\img\wisuba-logo.png" alt="wisuba-logo.png">
+                <button type="button"><p class="font-ssp font-regular text-xl text-white">Home</p></button>
+                <button type="button"><p class="font-ssp font-regular text-xl text-white">Blog</p></button>
+                <button type="button"><p class="font-ssp font-regular text-xl text-white">Package</p></button>
+                <button type="button"><p class="font-ssp font-regular text-xl text-white">About</p></button>
+            </div>
+            <div class="flex" style="justify-content: flex-start; align-items: center; gap: 8px; display: flex">
+                <img src="assets\img\language.png" alt="language.png">
+                <p class="font-ssp font-regular text-xl text-white">Log in</p>
+                <button class="rounded-full bg-white py-2.5 px-6" type="button">
+                    <p class="font-ssp font-regular text-xl">
+                        Sign up
+                    </p>
+                </button>
+            </div>
+        </div>
+        <div class="flex-row pt-40 text-center">
+            <h2 class="font-karla font-semibold text-px45 text-white leading-[53px]">Helping others</h2>
+            <h1 class="font-karla font-bold text-px80 text-white leading-[94px]">LEARN & TRAVEL</h1>
+            <p class="font-ssp font-regular text-2xl text-white leading-[30px]">Enjoy the diversity of Indonesian tribes</p>
+            <div class="pt-9">
+                <button class="rounded-full bg-white py-2.5 px-10 font-ssp font-regular text-2xl text-button-text" type="button">
+                    <p class="font-ssp font-regular text-xl">
+                        Book Now
+                    </p>
+                </button>
+            </div>
+        </div>
+        
+        <div class="absolute z-[-2] top-0 p-8">
+            <img src="assets\img\wisuba-two-dudes-landscape.png" alt="wisuba-two-dudes-landscape.png">
+        </div>
+    </div>
+
+    <div class="px-32 pt-72">
+        <div class="text-center pb-14">
+            <h1 class="font-karla font-bold text-6xl">Top Values For You</h1>
+            <p class="font-ssp font-regular text-2xl text-detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="flex text-center">
+            <div>
+                <img class="block mx-auto" src="assets\img\shuttle_pickup.png" alt="shuttle_pickup.png">
+                <p class="font-karla font-semibold text-2xl py-4">Shuttle Pickup</p>
+                <p class="font-ssp font-regular text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div>
+                <img class="block mx-auto" src="assets\img\easy_booking.png" alt="easy_booking.png">
+                <p class="font-karla font-semibold text-2xl py-4">Easy Booking</p>
+                <p class="font-ssp font-regular text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div>
+                <img class="block mx-auto" src="assets\img\best_tour_guide.png" alt="best_tour_guide.png">
+                <p class="font-karla font-semibold text-2xl py-4">Best Tour Guide</p>
+                <p class="font-ssp font-regular text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div>
+                <img class="block mx-auto" src="assets\img\hassle_free.png" alt="hassle_free.png">
+                <p class="font-karla font-semibold text-2xl py-4">Hassle Free</p>
+                <p class="font-ssp font-regular text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="px-32 pt-40">
+        <div class="pb-11 pt-2.5">
+            <h1 class="font-karla font-bold text-6xl opacity-80">Our Packages</h1>
+            <p class="font-ssp font-regular text-2xl text-detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="flex">
+            <div class="text-center mr-auto relative w-[48%] h-[45%]">
+                <img src="assets\img\public_package.png" alt="public_package.png">
+                <div class="absolute bottom-[5%] left-[5%] w-[85%]">
+                    <h2 class="font-karla font-bold text-6xl text-white">Public</h2>
+                    <p class="font-ssp font-regular text-2xl text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit Proin</p>
+                    <div class="pt-4">
+                        <button class="rounded-full bg-white py-2.5 px-6" type="button">Show More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center relative w-[48%] h-[45%]">
+                <img src="assets\img\private_package.png" alt="private_package.png">
+                <div class="absolute bottom-[5%] left-[5%] w-[85%]">
+                    <h2 class="font-karla font-bold text-6xl text-white">Private</h2>
+                    <p class="font-ssp font-regular text-2xl text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit Proin</p>
+                    <div class="pt-4">
+                        <button class="rounded-full bg-white py-2.5 px-6" type="button">Show More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex pt-10">
+            <div class="text-center mr-auto relative w-[48%] h-[45%]">
+                <img src="assets\img\long_track_package.png" alt="long_track_package.png">
+                <div class="absolute bottom-[5%] left-[5%] w-[85%]">
+                    <h2 class="font-karla font-bold text-6xl text-white">Long Track</h2>
+                    <p class="font-ssp font-regular text-2xl text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit Proin</p>
+                    <div class="pt-4">
+                        <button class="rounded-full bg-white py-2.5 px-6" type="button">Show More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center relative w-[48%] h-[45%]">
+                <img src="assets\img\short_track_package.png" alt="short_track_package.png">
+                <div class="absolute bottom-[5%] left-[5%] w-[85%]">
+                    <h2 class="font-karla font-bold text-6xl text-white">Private</h2>
+                    <p class="font-ssp font-regular text-2xl text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit Proin</p>
+                    <div class="pt-4">
+                        <button class="rounded-full bg-white py-2.5 px-6" type="button">Show More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="px-32 pt-32">
+        <div class="flex pb-12">
+            <h1 class="mr-auto font-karla font-bold text-6xl opacity-80">Latest Stories</h1>
+            <button class="py-2.5 px-10 border-black border rounded-full" type="button">
+                <p class="font-ssp font-regular text-3xl">
+                    Read More Articles
+                </p>
+            </button>            
+        </div>
+        <div class="flex">
+            <div class="pr-10 mr-auto w-[52%]">
+                <img src="assets\img\latest_stories_main.png" alt="latest_stories_main.png">
+                <p class="font-ssp font-regular text-xl py-3">Important info</p>
+                <h3 class="font-karla font-semibold text-2xl">There’s an annual event on baduy tribe that causes tourism to be closed for a week</h3>
+                <p class="font-ssp font-regular text-sm py-3">November 3, 2024 | 4 min read</p>
+                <p class="font-ssp font-regular text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae hendrerit massa. Nam vulputate tincidunt metus eget fermentum. Fusce luctus risus et nulla scelerisque laoreet. Quis...</p>                
+            </div>
+            <div class="w-[48%] gap-5">
+                <div class="flex pb-[5%] h-[33%]">
+                    <img src="assets\img\article1.png" alt="article1.png">
+                    <div class="pl-7">
+                        <p class="font-ssp font-regular text-xl pb-2">Trivia & Fun Fact</p>
+                        <h3 class="font-karla font-semibold text-2xl pb-2">There’s an annual event on baduy tribe that causes </h3>
+                        <p class="font-ssp font-regular text-sm">November 3, 2024 | 4 min read</p>
+                    </div>
+                </div>
+                <div class="flex pb-[5%] h-[33%]">
+                    <img src="assets\img\article2.png" alt="article2.png">
+                    <div class="pl-7">
+                        <p class="font-ssp font-regular text-xl pb-2">Trivia & Fun Fact</p>
+                        <h3 class="font-karla font-semibold text-2xl pb-2">There’s an annual event on baduy tribe that causes </h3>
+                        <p class="font-ssp font-regular text-sm">November 3, 2024 | 4 min read</p>
+                    </div>
+                </div>
+                <div class="flex pb-[5%] h-[33%]">
+                    <img src="assets\img\article3.png" alt="article3.png">
+                    <div class="pl-7">
+                        <p class="font-ssp font-regular text-xl pb-2">Trivia & Fun Fact</p>
+                        <h3 class="font-karla font-semibold text-2xl pb-2">There’s an annual event on baduy tribe that causes </h3>
+                        <p class="font-ssp font-regular text-sm">November 3, 2024 | 4 min read</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="px-32 pt-32">
+        <div>
+            <h2 class="font-karla font-bold text-6xl opacity-80 pb-2.5">Reviews</h2>
+            <p class="font-ssp font-regular text-2xl text-detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="flex">
+            <div class="pt-10 flex">
+                <div class="pr-[5%] w-[50%]">
+                    <div class="flex">
+                        <div>
+                            <img src="assets\img\user_photo.png" alt="user_photo.png">
+                        </div>
+                        <div class="pl-7 place-content-center">
+                            <h3 class="font-karla font-bold text-2xl">Inosensius Jaya Ditto</h3>
+                            <p class="font-ssp font-regular text-sm">Jakarta, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="pt-7">
+                        <img src="assets\img\user_rating.png" alt="user_rating.png">
+                        <h3 class="font-karla font-semibold text-2xl py-3">An Unforgettable Journey Through Turkey</h3>
+                        <p class="font-ssp font-regular text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae hendrerit massa. Nam vulputate tincidunt metus eget fermentum. Fusce luctus risus et nulla scelerisque laoreet. Quisque arcu ex, porta vel nisl finibus, blandit lacinia eros. Integer vehicula quis sem a bibendum. Vivamus ipsum enim, pretium vel arcu at, tempus sodales magna. Donec vel pretium magna. Fusce quis nisl ut risus varius tristique at at tortor. Morbi id leo eget ex bibendum molestie non quis dolor.</p>
+                    </div>
+                </div>
+                <div class="flex pr-0 w-[50%]">
+                    <div class="pr-[3%]">
+                        <img class="" src="assets\img\reviews_photo1.png" alt="reviews_photo1.png">
+                    </div>
+                    <div>
+                        <img class="h-[45%]" src="assets\img\reviews_photo2.png" alt="reviews_photo2.png">
+                        <h3 class="font-karla font-semibold text-2xl">Sunset view in the Baduy tribe</h3>
+                        <div>
+                            <button type="button"><img src="assets\img\left_button.png" alt="left_button.png"></button>
+                            <button type="button"><img src="assets\img\right_button.png" alt="right_button.png"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <footer class="flex-col justify-start items-start inline-flex bg-main text-white w-[100%]">
+        <div class="py-20 px-32 flex">
+            <div class="pr-32 w-[50%]">
+                <img class="invert" src="assets\img\wisuba-logo.png" alt="wisuba-logo.png">
+                <p class="pt-10 pb-2.5 font-karla font-semibold text-xl">Follow us on</p>
+                <div class="flex w-[80%]">
+                    <img class="mr-auto" src="assets\img\fb_white.png" alt="fb_white.png">
+                    <img class="mr-auto" src="assets\img\tw_white.png" alt="tw_white.png">
+                    <img class="mr-auto" src="assets\img\yt_white.png" alt="yt_white.png">
+                    <img src="assets\img\ig_white.png" alt="ig_white.png">
+                </div>
+            </div>
+            <div class="justify-between content-start inline-flex">
+                <div class="pr-[60%] whitespace-nowrap grid gap-y-1">
+                    <p class="font-karla font-semibold text-2xl">About us</p>
+                    <p class="font-ssp font-regular">About Wisuba</p>
+                    <p class="font-ssp font-regular">Terms and Conditions</p>
+                    <p class="font-ssp font-regular">Privacy Policy</p>
+                </div>
+                <div class="pr-[60%] whitespace-nowrap grid gap-y-1">
+                    <p class="font-karla font-semibold text-2xl">Blogs</p>
+                    <p class="font-ssp font-regular">Important Info</p>
+                    <p class="font-ssp font-regular">Trivia & Fun Fact</p>
+                    <p class="font-ssp font-regular">Tips & Trick</p>
+                </div>
+                <div class="whitespace-nowrap grid gap-y-1">
+                    <p class="font-karla font-semibold text-2xl">Support</p>
+                    <p class="font-ssp font-regular">Help Center</p>
+                    <p class="font-ssp font-regular">Contact Us</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
