@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Wisuba - Sign Up</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        karla: ['Karla'],
+                        ssp: ['"Source Sans 3"'],
+                    },
+                    fontSize: {
+                        'px45': '45px',
+                        'px22': '22px',
+                        'px14': '14px',
+                    },
+                    colors: {
+                        link: '#ff8682',
+                        button: '#223d5b',
+                        'login-with-button': '#8dd3bb',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="p-10 md:p-28 flex flex-col lg:flex-row">
+        <!-- Left Section -->
+        <div class="hidden lg:block flex-shrink-0 mr-44"> <!-- Tambahkan 'mr-12' di sini -->
+            <img class="max-w-full max-h-screen object-cover rounded-lg" src="assets/img/wisuba-two-dudes.png" alt="wisuba-two-dudes.png">
+        </div>
+        <!-- Right Section -->
+        <div class="w-auto lg:w-[calc(100%-2rem)]">
+            <!-- Logo -->
+            <div class="w-auto pt-5">
+                <img src="assets/img/wisuba-logo.png" alt="wisuba-logo.png">
+            </div>
+            <!-- Form Section -->
+            <div class="pt-9 ">
+                <h1 class="font-karla font-semibold text-px45 mt-4">Sign Up</h1>
+                <p class="font-ssp text-px22 text-gray-600 mt-4 w-4/5">Let’s get you all set up so you can access your personal account.</p>
+            </div>
+            <!-- Sign Up Form -->
+            <div class="pt-12">
+                <form>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 w-4/5">
+                        <div class="relative">
+                            <input type="text" name="first_name" id="first_name" class="w-full border border-gray-400 pl-4 py-2 rounded font-ssp text-px22">
+                            <label for="first_name" class="absolute -top-3 left-4 text-gray-500 bg-white px-1 font-ssp text-px14">First Name</label>
+                        </div>
+                        <div class="relative">
+                            <input type="text" name="last_name" id="last_name" class="w-full border border-gray-400 pl-4 py-2 rounded font-ssp text-px22">
+                            <label for="last_name" class="absolute -top-3 left-4 text-gray-500 bg-white px-1 font-ssp text-px14">Last Name</label>
+                        </div>
+                        <div class="relative col-span-2">
+                            <input type="email" name="email" id="email" class="w-full border border-gray-400 pl-4 py-2 rounded font-ssp text-px22">
+                            <label for="email" class="absolute -top-3 left-4 text-gray-500 bg-white px-1 font-ssp text-px14">Email</label>
+                        </div>
+                        <div class="relative col-span-2">
+                            <input type="text" name="phone" id="phone" class="w-full border border-gray-400 pl-4 py-2 rounded font-ssp text-px22">
+                            <label for="phone" class="absolute -top-3 left-4 text-gray-500 bg-white px-1 font-ssp text-px14">Phone Number</label>
+                        </div>
+                        <div class="relative">
+                            <input type="password" name="password" id="password" class="w-full border border-gray-400 pl-4 py-2 rounded font-ssp text-px22">
+                            <label for="password" class="absolute -top-3 left-4 text-gray-500 bg-white px-1 font-ssp text-px14">Password</label>
+                        </div>
+                        <div class="relative">
+                            <input type="password" name="confirm_password" id="confirm_password" class="w-full border border-gray-400 pl-4 py-2 rounded font-ssp text-px22">
+                            <label for="confirm_password" class="absolute -top-3 left-4 text-gray-500 bg-white px-1 font-ssp text-px14">Confirm Password</label>
+                        </div>
+                    </div>
+                    <div class="pt-4 w-4/5">
+                        <label class="flex items-center">
+                            <input type="checkbox" class="mr-2">
+                            <span class="font-ssp text-px14">I agree to all the <a href="#" class="text-link">Terms</a> and <a href="#" class="text-link">Privacy Policies</a></span>
+                        </label>
+                    </div>
+                    <div class="py-10">
+                        <button type="button" class="text-white rounded-full bg-button w-4/5 py-2 font-ssp text-xl">Create Account</button>
+                    </div>
+                </form>
+            </div>
+            <!-- Or Sign Up With Section -->
+            <div class="w-4/5 flex items-center gap-4">
+                <div class="flex-1 h-px bg-black opacity-25"></div>
+                <p class="font-ssp text-px14 text-gray-400">Or Sign up with</p>
+                <div class="flex-1 h-px bg-black opacity-25"></div>
+            </div>
+            <div class="pt-10 flex gap-4 w-4/5">
+                <button type="button" class="flex-1 px-6 py-4 rounded border border-login-with-button flex justify-center items-center">
+                    <img src="assets/img/facebook.png" alt="facebook.png">
+                </button>
+                <button type="button" class="flex-1 px-6 py-4 rounded border border-login-with-button flex justify-center items-center">
+                    <img src="assets/img/google.png" alt="google.png">
+                </button>
+                <button type="button" class="flex-1 px-6 py-4 rounded border border-login-with-button flex justify-center items-center">
+                    <img src="assets/img/apple.png" alt="apple.png">
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
