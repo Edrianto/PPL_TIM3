@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Wisuba</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        karla: ['Karla'],
+                        ssp: ['"Source Sans 3"'],
+                    },
+                    fontSize:{
+                        'px80': '80px',
+                        'px45': '45px',
+                        'px22': '22px'
+                    },
+                    colors:{
+                        link: '#ff8682',
+                        button: '#223d5b',
+                        'button-text':'#3c3c3c',
+                        'detail':'#3e3e3e',
+                        'login-with-button': '#8dd3bb',
+                        main: '#223d5b'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="relative min-h-20 overflow-hidden flex items-center justify-center">
+        <nav class="absolute top-0 left-0 w-full flex justify-between items-center px-16 py-6 z-20">
+            <!-- Logo dan Navigation -->
+            <div class="flex gap-x-7 items-center">
+                <img src="assets/img/wisuba-logo.png" alt="Wisuba Logo">
+                <button class="text-xl font-ssp">Home</button>
+                <button class="text-xl font-ssp">Blog</button>
+                <button class="text-xl font-ssp">Package</button>
+                <button class="text-xl font-ssp">About</button>
+            </div>
+
+            <!-- Language, Login, dan Sign Up -->
+            <div class="flex items-center gap-4">
+                <img class="invert" src="assets/img/language.png" alt="Language">
+                <p class="text-xl font-ssp">Log in</p>
+                <button class="rounded-full text-white bg-main px-6 py-2.5 text-xl font-ssp">
+                Sign up
+                </button>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Higlight article -->
+    <div class="relative min-h-screen bg-cover bg-center border-[2rem] border-white rounded-[5rem] overflow-hidden flex items-center justify-center" style="background-image: url('assets/img/wisuba-two-dudes-landscape.png');">
+        <header class="relative z-10 flex text-white">
+            <div class="place-content-center pl-9 min-w-24">
+                <button
+                  type="button"
+                  class="invert">
+                  <img src="assets/img/left_button.png" alt="Left Button" />
+                </button>
+            </div>
+            <div class="px-8">
+                <p class="text-xl md:text-2xl font-ssp mt-4">Important Info</p>
+                <h1 class="text-5xl md:text-6xl font-karla font-bold leading-tight mt-2">There’s an annual event on baduy tribe that causes tourism to be closed for a week</h1>
+                <p class="text-xl md:text-2xl font-ssp mt-4">November 3, 2024 | 4 min read</p>
+            </div>
+            <div class="place-content-center pr-9 min-w-24">
+                <button
+                  type="button"
+                  class="invert">
+                  <img src="assets/img/right_button.png" alt="Right Button" />
+                </button>
+            </div>
+        </header>
+    </div>    
+
+    <!-- Latest article  -->
+    <div class="px-8 lg:px-32 pt-14 lg:pt-55 flex">
+        <div>
+            <!-- Main article  -->
+            <div class="w-[95%]">
+                <img src="assets\img\main_article.png" alt="main_article.png">
+                <div>
+                    <p class="font-ssp font-regular text-sm lg:text-2xl py-3">Important info</p>
+                    <h3 class="font-karla font-bold text-lg lg:text-3xl">
+                        There’s an annual event on Baduy tribe that causes tourism to be closed for a week
+                    </h3>
+                    <p class="font-ssp font-regular text-sm lg:text-2xl py-2">November 3, 2024 | 4 min read</p>
+                    <p class="font-ssp font-regular text-sm lg:text-2xl">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae hendrerit massa. Nam vulputate tincidunt metus eget fermentum. Fusce luctus risus et nulla scelerisque laoreet. Quis...
+                    </p>
+                </div>
+            </div>
+            <!-- Side article -->
+            <div>
+                <div class="pt-12 flex">
+                    <img src="assets\img\side_article.png" alt="side_article.png">
+                    <div class="pl-8">
+                        <p class="font-ssp font-regular text-px22">Tips & Tricks</p>
+                        <h3 class="font-karla font-bold text-3xl">There’s an annual event on baduy tribe that causes ststastastaststs</h3>
+                        <p class="font-ssp font-regular text-px22 pt-[50%]">November 3, 2024 | 4 min read</p>
+                    </div>
+                </div>
+                <div class="pt-12 flex">
+                    <img src="assets\img\side_article.png" alt="side_article.png">
+                    <div class="pl-8">
+                        <p class="font-ssp font-regular text-px22">Tips & Tricks</p>
+                        <h3 class="font-karla font-bold text-3xl">There’s an annual event on baduy tribe that causes ststastastaststs</h3>
+                        <p class="font-ssp font-regular text-px22 pt-[50%]">November 3, 2024 | 4 min read</p>
+                    </div>
+                </div>
+                <div class="pt-12 flex">
+                    <img src="assets\img\side_article.png" alt="side_article.png">
+                    <div class="pl-8">
+                        <p class="font-ssp font-regular text-px22">Tips & Tricks</p>
+                        <h3 class="font-karla font-bold text-3xl">There’s an annual event on baduy tribe that causes ststastastaststs</h3>
+                        <p class="font-ssp font-regular text-px22 pt-[50%]">November 3, 2024 | 4 min read</p>
+                    </div>
+                </div>
+                <div class="pt-12 flex">
+                    <img src="assets\img\side_article.png" alt="side_article.png">
+                    <div class="pl-8">
+                        <p class="font-ssp font-regular text-px22">Tips & Tricks</p>
+                        <h3 class="font-karla font-bold text-3xl">There’s an annual event on baduy tribe that causes ststastastaststs</h3>
+                        <p class="font-ssp font-regular text-px22 pt-[50%]">November 3, 2024 | 4 min read</p>
+                    </div>
+                </div>
+                <div class="pt-12 flex">
+                    <img src="assets\img\side_article.png" alt="side_article.png">
+                    <div class="pl-8">
+                        <p class="font-ssp font-regular text-px22">Tips & Tricks</p>
+                        <h3 class="font-karla font-bold text-3xl">There’s an annual event on baduy tribe that causes ststastastaststs</h3>
+                        <p class="font-ssp font-regular text-px22 pt-[50%]">November 3, 2024 | 4 min read</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- sidebar -->
+        <div class="w-11/12 flex-inline">
+            <form class="shadow-lg border-[15px] border-white rounded-2xl">
+                <input class="w-10/12 outline-none" type="text" placeholder="Search">
+                <button class="absolute" type="submit"><img src="assets\img\search_button.png" alt="search.jpg"></button>
+            </form>
+            <br>
+            <div class="shadow-lg border-[15px] border-white rounded-2xl">
+                <h3 class="font-karla font-semibold text-lg lg:text-2xl">Most read</h3>
+                <div>
+                    <div class="py-2 flex">
+                        <img class="w-1/2" src="assets\img\most_read.png" alt="most_read.png">
+                        <div class="pl-4">
+                            <p class="font-karla font-bold text-sm">There’s an annual event on baduy tribe that causes tourism to be closed for a week</p>
+                            <p class="font-ssp font-regular text-xs">November 3, 2024 | 4 min read</p>
+                        </div>                       
+                    </div>
+                    <div class="py-2 flex">
+                        <img class="w-1/2" src="assets\img\most_read.png" alt="most_read.png">
+                        <div class="pl-4">
+                            <p class="font-karla font-bold text-sm">There’s an annual event on baduy tribe that causes tourism to be closed for a week</p>
+                            <p class="font-ssp font-regular text-xs">November 3, 2024 | 4 min read</p>
+                        </div>                       
+                    </div>
+                    <div class="py-2 flex">
+                        <img class="w-1/2" src="assets\img\most_read.png" alt="most_read.png">
+                        <div class="pl-4">
+                            <p class="font-karla font-bold text-sm">There’s an annual event on baduy tribe that causes tourism to be closed for a week</p>
+                            <p class="font-ssp font-regular text-xs">November 3, 2024 | 4 min read</p>
+                        </div>                       
+                    </div>
+                    <div class="py-2 flex">
+                        <img class="w-1/2" src="assets\img\most_read.png" alt="most_read.png">
+                        <div class="pl-4">
+                            <p class="font-karla font-bold text-sm">There’s an annual event on baduy tribe that causes tourism to be closed for a week</p>
+                            <p class="font-ssp font-regular text-xs">November 3, 2024 | 4 min read</p>
+                        </div>                       
+                    </div>
+                    <div class="py-2 flex">
+                        <img class="w-1/2" src="assets\img\most_read.png" alt="most_read.png">
+                        <div class="pl-4">
+                            <p class="font-karla font-bold text-sm">There’s an annual event on baduy tribe that causes tourism to be closed for a week</p>
+                            <p class="font-ssp font-regular text-xs">November 3, 2024 | 4 min read</p>
+                        </div>                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page navigation -->
+    <div class="flex pt-20 place-content-center">
+        <img class="pr-[1%]" src="assets/img/left_button.png" alt="left_button.png"/>
+        <h3 class="font-karla font-semibold text-5xl px-[2%]">1</h3>
+        <h3 class="font-karla font-semibold text-5xl px-[2%]">2</h3>
+        <h3 class="font-karla font-semibold text-5xl px-[2%]">3</h3>
+        <img class="pl-[1%]" src="assets/img/right_button.png" alt="right_button.png"/>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <footer class="flex flex-col bg-main text-white w-full">
+        <div class="py-28 px-8 md:px-16 lg:px-40 flex flex-wrap justify-between w-full mx-auto">
+            <!-- Logo and Social Media Links -->
+            <div class="w-auto">
+                <img class="invert" src="assets/img/wisuba-logo.png" alt="wisuba-logo.png">
+                <p class="pt-10 pb-2.5 font-karla font-semibold text-xl">Follow us on</p>
+                <div class="flex gap-4">
+                    <img src="assets/img/fb_white.png" alt="Facebook">
+                    <img src="assets/img/tw_white.png" alt="Twitter">
+                    <img src="assets/img/yt_white.png" alt="YouTube">
+                    <img src="assets/img/ig_white.png" alt="Instagram">
+                </div>
+            </div>
+            <!-- About Us -->
+            <div class="w-auto">
+                <p class="font-karla font-semibold text-2xl mb-4">About us</p>
+                <p class="font-ssp font-regular">About Wisuba</p>
+                <p class="font-ssp font-regular">Terms and Conditions</p>
+                <p class="font-ssp font-regular">Privacy Policy</p>
+            </div>
+            <!-- Blogs -->
+            <div class="w-auto">
+                <p class="font-karla font-semibold text-2xl mb-4">Blogs</p>
+                <p class="font-ssp font-regular">Important Info</p>
+                <p class="font-ssp font-regular">Trivia & Fun Fact</p>
+                <p class="font-ssp font-regular">Tips & Trick</p>
+            </div>
+            <!-- Support -->
+            <div class="w-auto">
+                <p class="font-karla font-semibold text-2xl mb-4">Support</p>
+                <p class="font-ssp font-regular">Help Center</p>
+                <p class="font-ssp font-regular">Contact Us</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
