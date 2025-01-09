@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Wisuba</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        karla: ['Karla'],
+                        ssp: ['"Source Sans 3"'],
+                    },
+                    fontSize:{
+                        'px80': '80px',
+                        'px45': '45px',
+                        'px22': '22px'
+                    },
+                    colors:{
+                        link: '#ff8682',
+                        button: '#223d5b',
+                        'button-text':'#3c3c3c',
+                        'detail':'#3e3e3e',
+                        'login-with-button': '#8dd3bb',
+                        main: '#223d5b'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="relative min-h-20 overflow-hidden flex items-center justify-center">
+        <nav class="absolute top-0 left-0 w-full flex justify-between items-center px-16 py-6 z-20">
+            <!-- Logo dan Navigation -->
+            <div class="flex gap-x-7 items-center">
+                <img src="assets/img/wisuba-logo.png" alt="Wisuba Logo">
+                <button class="text-xl font-ssp">Home</button>
+                <button class="text-xl font-ssp">Blog</button>
+                <button class="text-xl font-ssp">Package</button>
+                <button class="text-xl font-ssp">About</button>
+            </div>
+
+            <!-- Language, Login, dan Sign Up -->
+            <div class="flex items-center gap-4">
+                <img class="invert" src="assets/img/language.png" alt="Language">
+                <p class="text-xl font-ssp">Log in</p>
+                <button class="rounded-full text-white bg-main px-6 py-2.5 text-xl font-ssp">
+                Sign up
+                </button>
+            </div>
+        </nav>
+    </div>
+    
+    <div class="px-[15%] pt-16">
+        <h1 class="font-karla font-bold text-lg lg:text-6xl mx-auto text-center">There’s an annual event on baduy tribe that causes tourism to be closed for a week</h1>
+        <div class="flex place-content-center pt-5">
+            <p class="mt-4 lg:mt-0 lg:py-1 px-2 border-black border rounded-full">Important</p>
+            <p class="px-[1%]"></p>
+            <p class="mt-4 lg:mt-0 lg:py-1 px-2 border-black border rounded-full">Closed</p>
+        </div>
+    </div>
+
+    <img class="pt-12 px-[8%]" src="assets\img\wisuba-two-dudes-landscape.png" alt="wisuba-two-dudes-landscape.png">
+
+    <div class="pt-7 px-[8%] flex">
+        <div class="w-[20%]">
+            <h3 class="font-ssp font-regular lg:text-px22">Created By</h3>
+            <div class="flex py-2 flex-wrap">
+                <img class="pr-2 h-[30%]" src="assets\img\profile_pic.png" alt="profile_pic.png">
+                <div>
+                    <h3 class="font-ssp font-regular lg:text-px22">Admin Wisuba</h3>
+                    <p class="font-ssp font-regular lg:text-sm">November 3, 2024</p>
+                </div>    
+            </div>
+            <hr class="w-[85%] mx-auto pb-1 border-solid border-[#262626]">
+            <p class="font-ssp font-regular lg:text-sm">4 minutes read</p>
+        </div>
+        <div class="w-[80%]">
+            <p class="font-ssp font-regular lg:text-2xl pb-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a nisi in metus faucibus varius. Donec consequat magna at risus elementum bibendum. Maecenas blandit tellus vitae tortor luctus, ac fringilla sapien suscipit. Quisque sit amet vehicula sapien. Duis elementum diam nec nisi dictum, et iaculis dui venenatis. Mauris eu elit vitae odio fringilla finibus et eget dolor. Phasellus vulputate felis quis elementum laoreet. Mauris id tincidunt nibh, vitae auctor justo. Donec a justo finibus, venenatis quam ut, rutrum erat.
+            </p>
+            <p class="font-ssp font-regular lg:text-2xl pb-5">
+                Vestibulum suscipit augue eu maximus feugiat. Mauris justo nulla, ultricies in tempus ut, sagittis quis mauris. Phasellus dictum sed libero non aliquam. Etiam accumsan turpis eu erat faucibus, in porta ante iaculis. Sed eget erat ac ex tincidunt mattis. Mauris viverra neque mi. In rhoncus tortor est, a vehicula lacus convallis ut. Morbi et sollicitudin arcu. Pellentesque tristique semper magna, id ultrices libero.
+            </p>
+            <p class="font-ssp font-regular lg:text-2xl pb-5">
+                Nunc molestie felis nibh, at consequat est sagittis et. Aliquam semper quam vel augue lacinia, eu eleifend quam gravida. Phasellus tempus erat vel felis tristique elementum. Cras consectetur lacus dignissim est vulputate, a rutrum mi vehicula. Morbi convallis lacinia quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus fringilla faucibus ante id lobortis.
+            </p>
+            <p class="font-ssp font-regular lg:text-2xl pb-5">
+                Donec nec aliquet metus. Nulla viverra aliquam placerat. Sed congue risus sed magna condimentum, placerat sodales enim tempus. Nam id lobortis mauris, non condimentum leo. Curabitur vitae dignissim urna. Vivamus pharetra iaculis eros, vestibulum ullamcorper urna lacinia ut. In hac habitasse platea dictumst. Suspendisse molestie fringilla orci, ut eleifend velit fringilla ut. Aliquam arcu sem, rhoncus vel consequat non, rutrum at arcu. Aliquam facilisis risus est. Donec ullamcorper sem sed felis rutrum, in blandit nibh iaculis. Aliquam ac leo vel quam sollicitudin lobortis. Etiam ut nulla nec leo vulputate tempor. Proin porta magna a ex maximus, id tincidunt dolor vulputate.
+            </p>
+            <p class="font-ssp font-regular lg:text-2xl pb-5">
+                Nullam egestas consequat odio, nec convallis nulla tincidunt ut. Suspendisse ultrices ante in augue porttitor efficitur. Sed nec lorem nec odio vestibulum placerat. Praesent commodo, nulla ac consequat dictum, odio urna rhoncus mi, non malesuada dui diam vel urna. Cras id nulla a nulla dignissim vestibulum vitae in massa. Fusce in lectus orci. Donec at interdum lorem. Maecenas suscipit ullamcorper tempus. Suspendisse a vulputate arcu. Suspendisse potenti. Integer fringilla eu nulla sit amet iaculis.
+            </p>
+            <img class="pb-5" src="assets\img\article_pic.png" alt="article_pic.png">
+            <p class="font-ssp font-regular lg:text-2xl pb-5">
+                Nam egestas bibendum urna id elementum. Praesent cursus arcu nec placerat feugiat. Suspendisse eget lacus non ipsum sagittis pulvinar. Fusce viverra fermentum condimentum. Morbi iaculis orci dolor. Donec vulputate lectus sit amet nunc pulvinar, et pharetra urna maximus. Morbi elit leo, dictum nec bibendum a, tempus nec nibh.
+                Nulla facilisi. Mauris tempus bibendum commodo. Praesent ac pharetra dolor. Phasellus non volutpat leo. Duis imperdiet dui diam, sed dapibus leo hendrerit in. Phasellus sed aliquet neque, id sollicitudin purus. Phasellus lobortis augue at sapien sagittis, eget viverra neque tincidunt. Maecenas aliquet interdum neque, at pharetra dui tempus sed. Cras vel nulla vitae eros mattis elementum. Mauris pharetra commodo erat sit amet posuere. Proin ex est, bibendum in lorem vitae, volutpat posuere tortor.
+            </p>
+            <p  class="font-ssp font-regular lg:text-2xl pb-5">
+                Donec ornare viverra porttitor. Nam hendrerit arcu neque, eu tempus ligula efficitur eu. Etiam luctus sem massa, vel eleifend nisl consequat in. Mauris faucibus velit vel condimentum blandit. Duis porta interdum mauris non viverra. Phasellus mollis vestibulum nibh quis varius. Praesent non lacus hendrerit ante ullamcorper gravida. Proin eget aliquam eros. Pellentesque euismod, leo sed bibendum pharetra, nisl est euismod arcu, eget egestas lacus lorem eu massa. Suspendisse finibus elit ac nisl laoreet accumsan. Nunc ultrices purus dui, ut maximus velit aliquam euismod. 
+            </p>
+        </div>
+        
+    </div>
+    
+
+    <br>
+    <br>
+    <br>
+
+    <footer class="flex flex-col bg-main text-white w-full">
+        <div class="py-28 px-8 md:px-16 lg:px-40 flex flex-wrap justify-between w-full mx-auto">
+            <!-- Logo and Social Media Links -->
+            <div class="w-auto">
+                <img class="invert" src="assets/img/wisuba-logo.png" alt="wisuba-logo.png">
+                <p class="pt-10 pb-2.5 font-karla font-semibold text-xl">Follow us on</p>
+                <div class="flex gap-4">
+                    <img src="assets/img/fb_white.png" alt="Facebook">
+                    <img src="assets/img/tw_white.png" alt="Twitter">
+                    <img src="assets/img/yt_white.png" alt="YouTube">
+                    <img src="assets/img/ig_white.png" alt="Instagram">
+                </div>
+            </div>
+            <!-- About Us -->
+            <div class="w-auto">
+                <p class="font-karla font-semibold text-2xl mb-4">About us</p>
+                <p class="font-ssp font-regular">About Wisuba</p>
+                <p class="font-ssp font-regular">Terms and Conditions</p>
+                <p class="font-ssp font-regular">Privacy Policy</p>
+            </div>
+            <!-- Blogs -->
+            <div class="w-auto">
+                <p class="font-karla font-semibold text-2xl mb-4">Blogs</p>
+                <p class="font-ssp font-regular">Important Info</p>
+                <p class="font-ssp font-regular">Trivia & Fun Fact</p>
+                <p class="font-ssp font-regular">Tips & Trick</p>
+            </div>
+            <!-- Support -->
+            <div class="w-auto">
+                <p class="font-karla font-semibold text-2xl mb-4">Support</p>
+                <p class="font-ssp font-regular">Help Center</p>
+                <p class="font-ssp font-regular">Contact Us</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
