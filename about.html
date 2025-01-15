@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Wisuba</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        karla: ['Karla'],
+                        ssp: ['"Source Sans 3"'],
+                    },
+                    fontSize:{
+                        'px80': '80px',
+                        'px45': '45px',
+                        'px22': '22px'
+                    },
+                    colors:{
+                        link: '#ff8682',
+                        button: '#223d5b',
+                        'button-text':'#3c3c3c',
+                        'detail':'#3e3e3e',
+                        'login-with-button': '#8dd3bb',
+                        main: '#223d5b'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="min-h-screen flex flex-col">
+        <!-- Navbar -->
+        <nav class="w-full flex justify-between items-center px-16 py-6 bg-white z-20">
+            <!-- Logo dan Navigation -->
+            <div class="flex gap-x-7 items-center">
+                <a href="landing_gio_fixed.html"><img class="w-24" src="assets/img/wisuba-logo.png" alt="Wisuba Logo"></a>
+                <a class="text-black text-xl font-ssp hover:text-blue-600" href="landing_gio_fixed.html">Home</a>
+                <a class="text-black text-xl font-ssp hover:text-blue-600">Blog</a>
+                <a class="text-black text-xl font-ssp hover:text-blue-600" href="package.html">Package</a>
+                <a class="text-black text-xl font-ssp hover:text-blue-600">About</a>
+            </div>
+    
+            <!-- Language, Login, dan Sign Up -->
+            <div class="flex items-center gap-4">
+                <img class="w-6 h-6 invert" src="assets/img/language.png" alt="Language">
+                <p class="text-black text-xl font-ssp cursor-pointer hover:underline">Log in</p>
+                <button class="rounded-full bg-main text-white px-6 py-2 text-xl font-ssp hover:bg-blue-700">
+                    Sign up
+                </button>
+            </div>
+        </nav>
+    
+        <!-- Hero Section -->
+        <div class="relative flex-grow bg-cover bg-center border-x-[2rem] border-b-[2rem] border-white rounded-[5rem] overflow-hidden flex items-center justify-start" style="background-image: url('assets/img/wisuba-two-dudes-landscape.png');">
+            <!-- Overlay -->
+            <div class="absolute inset-0 "></div>
+        </div>
+        <h3 class="font-karla font-bold text-6xl text-center mb-6">ABOUT</h3>
+    </div>
+
+    <div class="px-[15%]">
+        <p class="font-ssp font-regular lg:text-2xl pb-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a nisi in metus faucibus varius. Donec consequat magna at risus elementum bibendum. Maecenas blandit tellus vitae tortor luctus, ac fringilla sapien suscipit. Quisque sit amet vehicula sapien. Duis elementum diam nec nisi dictum, et iaculis dui venenatis. Mauris eu elit vitae odio fringilla finibus et eget dolor. Phasellus vulputate felis quis elementum laoreet. Mauris id tincidunt nibh, vitae auctor justo. Donec a justo finibus, venenatis quam ut, rutrum erat.
+        </p>
+        <p class="font-ssp font-regular lg:text-2xl pb-5">
+            Vestibulum suscipit augue eu maximus feugiat. Mauris justo nulla, ultricies in tempus ut, sagittis quis mauris. Phasellus dictum sed libero non aliquam. Etiam accumsan turpis eu erat faucibus, in porta ante iaculis. Sed eget erat ac ex tincidunt mattis. Mauris viverra neque mi. In rhoncus tortor est, a vehicula lacus convallis ut. Morbi et sollicitudin arcu. Pellentesque tristique semper magna, id ultrices libero.
+        </p>
+        <img src="assets\img\about_img.png" alt="about_img.png">
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <footer class="flex flex-col bg-main text-white w-full">
+        <div class="py-28 px-8 md:px-16 lg:px-40 flex flex-wrap justify-between w-full mx-auto">
+            <!-- Logo and Social Media Links -->
+            <div class="w-auto">
+                <img class="invert" src="assets/img/wisuba-logo.png" alt="wisuba-logo.png">
+                <p class="pt-10 pb-2.5 font-karla font-semibold text-xl">Follow us on</p>
+                <div class="flex gap-4">
+                    <img src="assets/img/fb_white.png" alt="Facebook">
+                    <img src="assets/img/tw_white.png" alt="Twitter">
+                    <img src="assets/img/yt_white.png" alt="YouTube">
+                    <img src="assets/img/ig_white.png" alt="Instagram">
+                </div>
+            </div>
+            <!-- About Us -->
+            <div class="w-auto">
+                <p class="font-karla font-semibold text-2xl mb-4">About us</p>
+                <p class="font-ssp font-regular">About Wisuba</p>
+                <p class="font-ssp font-regular">Terms and Conditions</p>
+                <p class="font-ssp font-regular">Privacy Policy</p>
+            </div>
+            <!-- Blogs -->
+            <div class="w-auto">
+                <p class="font-karla font-semibold text-2xl mb-4">Blogs</p>
+                <p class="font-ssp font-regular">Important Info</p>
+                <p class="font-ssp font-regular">Trivia & Fun Fact</p>
+                <p class="font-ssp font-regular">Tips & Trick</p>
+            </div>
+            <!-- Support -->
+            <div class="w-auto">
+                <p class="font-karla font-semibold text-2xl mb-4">Support</p>
+                <p class="font-ssp font-regular">Help Center</p>
+                <p class="font-ssp font-regular">Contact Us</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
