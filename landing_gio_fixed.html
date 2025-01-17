@@ -41,11 +41,11 @@
         <nav class="absolute top-0 left-0 w-full flex justify-between items-center px-16 py-6 z-20">
             <!-- Logo dan Navigation -->
             <div class="flex gap-x-7 items-center">
-                <img class="invert" src="assets/img/wisuba-logo.png" alt="Wisuba Logo">
-                <button class="text-white text-xl font-ssp">Home</button>
-                <button class="text-white text-xl font-ssp">Blog</button>
-                <button class="text-white text-xl font-ssp">Package</button>
-                <button class="text-white text-xl font-ssp">About</button>
+                <a href="landing_gio_fixed.html"><img class="w-24 invert" src="assets/img/wisuba-logo.png" alt="Wisuba Logo"></a>
+                <a class="text-black text-xl font-ssp hover:text-blue-600 invert" href="landing_gio_fixed.html">Home</a>
+                <a class="text-black text-xl font-ssp hover:text-blue-600 invert">Blog</a>
+                <a class="text-black text-xl font-ssp hover:text-blue-600 invert" href="package.html">Package</a>
+                <a class="text-black text-xl font-ssp hover:text-blue-600 invert">About</a>
             </div>
 
             <!-- Language, Login, dan Sign Up -->
@@ -60,11 +60,11 @@
 
         <!-- Hero Section -->
         <header class="relative z-10 flex flex-col items-center text-center text-white">
-            <h2 class="text-3xl md:text-4xl font-karla font-semibold">Helping others</h2>
-            <h1 class="text-5xl md:text-7xl font-karla font-bold leading-tight mt-2">LEARN & TRAVEL</h1>
-            <p class="text-xl md:text-2xl font-ssp mt-4">Enjoy the diversity of Indonesian tribes</p>
-            <button class="mt-6 bg-white text-black rounded-full px-10 py-3 text-xl font-ssp hover:bg-gray-200">
-                Book Now
+            <h2 class="text-3xl md:text-4xl font-karla font-semibold" id="hero_landing_1">Membantu Sesama</h2>
+            <h1 class="text-5xl md:text-7xl font-karla font-bold leading-tight mt-2" id="hero_landing_2">BELAJAR & BERJELAJAH</h1>
+            <p class="text-xl md:text-2xl font-ssp mt-4" id="hero_landing_3">Nikmati keberagaman suku di Indonesia</p>
+            <button class="mt-6 bg-white text-black rounded-full px-10 py-3 text-xl font-ssp hover:bg-gray-200" id="cta_landing_page">
+                Pesan Sekarang
             </button>
         </header>
     </div>
@@ -72,33 +72,33 @@
     <!-- Top Values -->
     <div class="px-8 lg:px-32 pt-20 lg:pt-55">
         <div class="text-center pb-14">
-            <h1 class="font-karla font-bold text-4xl lg:text-6xl">Top Values For You</h1>
-            <p class="font-ssp font-regular text-lg lg:text-2xl text-detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h1 class="font-karla font-bold text-4xl lg:text-6xl" id="value">Nilai Utama Kami</h1>
+            <p class="font-ssp font-regular text-lg lg:text-2xl text-detail" id="value_detail">Komitmen kami untuk memberikan pengalaman perjalanan terbaik bagi Anda!</p>
         </div>
         <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             <!-- Shuttle Pickup -->
             <div>
                 <img class="block mx-auto w-20 h-20 lg:w-24 lg:h-24" src="assets/img/shuttle_pickup.png" alt="shuttle_pickup.png">
-                <p class="font-karla font-semibold text-lg lg:text-2xl py-2 lg:py-4">Shuttle Pickup</p>
-                <p class="font-ssp font-regular text-sm lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="font-karla font-semibold text-lg lg:text-2xl py-2 lg:py-4" id="value1">Penjemputan Shuttle</p>
+                <p class="font-ssp font-regular text-sm lg:text-xl" id="value1_desc">Antar-jemput nyaman, tepat waktu, dan strategis.</p>
             </div>
             <!-- Easy Booking -->
             <div>
                 <img class="block mx-auto w-20 h-20 lg:w-24 lg:h-24" src="assets/img/easy_booking.png" alt="easy_booking.png">
-                <p class="font-karla font-semibold text-lg lg:text-2xl py-2 lg:py-4">Easy Booking</p>
-                <p class="font-ssp font-regular text-sm lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="font-karla font-semibold text-lg lg:text-2xl py-2 lg:py-4" id="value2">Pemesanan Mudah</p>
+                <p class="font-ssp font-regular text-sm lg:text-xl" id="value2_desc">Pesan cepat dan praktis hanya beberapa langkah.</p>
             </div>
             <!-- Best Tour Guide -->
             <div>
                 <img class="block mx-auto w-20 h-20 lg:w-24 lg:h-24" src="assets/img/best_tour_guide.png" alt="best_tour_guide.png">
-                <p class="font-karla font-semibold text-lg lg:text-2xl py-2 lg:py-4">Best Tour Guide</p>
-                <p class="font-ssp font-regular text-sm lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="font-karla font-semibold text-lg lg:text-2xl py-2 lg:py-4" id="value3">Pemandu Terbaik</p>
+                <p class="font-ssp font-regular text-sm lg:text-xl" id="value3_desc">Pemandu profesional, ahli tradisi dan budaya.</p>
             </div>
             <!-- Hassle Free -->
             <div>
                 <img class="block mx-auto w-20 h-20 lg:w-24 lg:h-24" src="assets/img/hassle_free.png" alt="hassle_free.png">
-                <p class="font-karla font-semibold text-lg lg:text-2xl py-2 lg:py-4">Hassle Free</p>
-                <p class="font-ssp font-regular text-sm lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="font-karla font-semibold text-lg lg:text-2xl py-2 lg:py-4" id="value4">Bebas Ribet</p>
+                <p class="font-ssp font-regular text-sm lg:text-xl" id="value4_desc">Nikmati perjalanan, kami urus semua kebutuhan.</p>
             </div>
         </div>
     </div>
@@ -107,8 +107,8 @@
     <!-- Our Packages -->
     <div class="px-8 lg:px-32 pt-20 lg:pt-40">
         <div class="pb-11 pt-2.5">
-            <h1 class="font-karla font-bold text-4xl lg:text-6xl opacity-80">Our Packages</h1>
-            <p class="font-ssp font-regular text-lg lg:text-2xl text-detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h1 class="font-karla font-bold text-4xl lg:text-6xl opacity-80">Paket Kami</h1>
+            <p class="font-ssp font-regular text-lg lg:text-2xl text-detail">Jelajahi keindahan alam dan budaya Suku Baduy dengan paket wisata istimewa</p>
         </div>
             <!-- Package Item -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -171,9 +171,9 @@
     <div class="px-4 lg:px-32 pt-16 lg:pt-32">
         <!-- Header Section -->
         <div class="flex flex-wrap items-center pb-8">
-            <h1 class="mr-auto font-karla font-bold text-3xl lg:text-6xl opacity-80">Latest Stories</h1>
+            <h1 class="mr-auto font-karla font-bold text-3xl lg:text-6xl opacity-80">Certia Terkini</h1>
             <button class="mt-4 lg:mt-0 py-2 px-6 lg:py-2.5 lg:px-10 border-black border rounded-full" type="button">
-                <p class="font-ssp font-regular text-base lg:text-3xl">Read More Articles</p>
+                <p class="font-ssp font-regular text-base lg:text-3xl">Baca Lebih Banyak</p>
             </button>
         </div>
         <!-- Main Content Section -->
@@ -233,9 +233,9 @@
     <div class="px-32 pt-32">
         <!-- Heading Section -->
         <div>
-          <h2 class="font-karla font-bold text-6xl opacity-80 pb-2.5">Reviews</h2>
+          <h2 class="font-karla font-bold text-6xl opacity-80 pb-2.5">Tinjauan</h2>
           <p class="font-ssp font-regular text-2xl text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Temukan cerita dan kesan perjalanan teman Wisuba
           </p>
         </div>
 
@@ -264,10 +264,10 @@
                 alt="User Rating"
               />
               <h3 class="font-karla font-semibold text-2xl py-3">
-                An Unforgettable Journey Through Baduy
+                Perjalanan Tak Terlupakan ke Suku Baduy
               </h3>
               <p class="font-ssp font-regular text-xl text-gray-600 leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae hendrerit massa. Nam vulputate tincidunt metus eget fermentum. Fusce luctus risus et nulla scelerisque laoreet. Quisque arcu ex, porta vel nisl finibus, blandit lacinia eros. Integer vehicula quis sem a bibendum. Vivamus ipsum enim, pretium vel arcu at, tempus sodales magna. Donec vel pretium magna. Fusce quis nisl ut risus varius tristique at at tortor. Morbi id leo eget ex bibendum molestie non quis dolor.
+                Perjalanan ke Suku Baduy benar-benar pengalaman yang luar biasa! Saya merasa sangat terhubung dengan alam dan budaya yang begitu autentik. Pemandu wisata kami sangat berpengetahuan dan memberi wawasan mendalam tentang kehidupan sehari-hari suku Baduy. Transportasi antar-jemput juga sangat nyaman dan tepat waktu, membuat perjalanan semakin menyenangkan. Ini adalah pengalaman yang tidak akan saya lupakan dan saya sangat merekomendasikan perjalanan ini.
               </p>
             </div>
           </div>
@@ -353,11 +353,14 @@
                 <p class="font-ssp font-regular">Help Center</p>
                 <p class="font-ssp font-regular">Contact Us</p>
             </div>
+        <button onclick="changeLanguage('en')">English</button>
+        <button onclick="changeLanguage('id')">Bahasa Indonesia</button>
         </div>
     </footer>
 
 
 
+    <script src="script.js"></script>
 
 
 </body>

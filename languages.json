@@ -1,0 +1,34 @@
+{
+    "en": {
+        "hero_landing_1": "Helping Others",
+        "hero_landing_2": "LEARN & TRAVEL",
+        "hero_landing_3": "Enjoy the diversity of Indonesian tribes",
+        "cta_landing_page": "Book Now",
+        "value": "Top Values For You",
+        "value_detail": "Our commitment is to provide you with the best travel experience!",
+        "value1": "Shuttle Pickup",
+        "value1_desc": "Comfortable, punctual, and strategically located shuttle service.",
+        "value2": "Easy Booking",
+        "value2_desc": "Quick and easy booking in just a few steps.",
+        "value3": "Best Tour Guide",
+        "value3_desc": "Professional guides, experts in tradition and culture.",
+        "value4": "Hasle Free",
+        "value4_desc": "Enjoy the journey, we handle all the details."
+    },
+    "id": {
+        "hero_landing_1": "Membantu Sesama",
+        "hero_landing_2": "BELAJAR & BERJELAJAH",
+        "hero_landing_3": "Nikmati keberagaman suku di Indonesia",
+        "cta_landing_page": "Pesan Sekarang",
+        "value": "Nilai Utama Kami",
+        "value_detail": "Komitmen kami untuk memberikan pengalaman perjalanan terbaik bagi Anda!",
+        "value1": "Penjemputan Shuttle",
+        "value1_desc": "Antar-jemput nyaman, tepat waktu, dan strategis.",
+        "value2": "Pemesanan Mudah",
+        "value2_desc": "Pesan cepat dan praktis hanya beberapa langkah.",
+        "value3": "Pemandu Terbaik",
+        "value3_desc": "Pemandu profesional, ahli tradisi dan budaya.",
+        "value4": "Bebas Ribet",
+        "value4_desc": "Nikmati perjalanan, kami urus semua kebutuhan."
+    }
+}
